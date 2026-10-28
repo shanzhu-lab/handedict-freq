@@ -11,7 +11,7 @@ nix build                   # build result/handedict-freq.u8
 ```
 
 The output is in `CEDICT` format. Each entry is preceded by a comment line with
-its HanDeDict ID and its Zipf frequency (`# j50lW6h 7.79`).
+its HanDeDict ID and its Zipf frequency (e.g., `# j50lW6h 7.79`).
 Only single characters and the words wordfreq has a frequency for are kept.
 
 ## Sources
@@ -26,8 +26,8 @@ Only single characters and the words wordfreq has a frequency for are kept.
 
 ## License
 
-Only the code in this repository is [MIT licensed](LICENSE).
-The generated dictionary is an adaptation of both and is licensed under
+Only the build script in this repository is [MIT licensed](LICENSE).
+The generated dictionary is an adaptation of both sources and licensed under
 **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**.[^1]
 Its header carries the full attribution.
 
